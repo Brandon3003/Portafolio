@@ -1,0 +1,16 @@
+{
+    "name": "proyecto_individual",
+    "version": "1.0.0",
+    "description": "Proyecto individual B70954",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "node-sass --watch scss -o css --output-style expanded",
+        "build": "node-sass scss -o css --output-style compressed"
+    },
+    "author": "Brandon Jesus Barrantes Alfaro",
+    "license": "ISC",
+    "dependencies": {
+        "node-sass": "^4.14.1"
+    }
+}

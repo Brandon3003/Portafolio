@@ -1,0 +1,58 @@
+.abilities {
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    background-color: $fifth-color;
+    &__tittle {
+        font-size: 60px;
+        text-align: center;
+        text-shadow: 0px 0px 4px $fourth-color;
+        margin: 15px;
+    }
+    &__container {
+        flex-direction: row;
+        padding: 15px;
+        display: flex;
+        justify-content: center;
+    }
+    &--item {
+        font-size: 80px;
+        padding: 50px;
+        &:hover {
+            cursor: pointer;
+            color: $fourth-color;
+        }
+    }
+}
+
+@media (max-width:895px) {
+    .abilities {
+        &__tittle {
+            font-size: 60px;
+        }
+        &--item {
+            font-size: 80px;
+            padding: 15px;
+            &:hover {
+                cursor: pointer;
+                color: $fourth-color;
+            }
+        }
+    }
+}
+
+@media(max-width:600px) {
+    .abilities {
+        &__tittle {
+            font-size: 40px;
+        }
+        &--item {
+            font-size: 60px;
+            padding: 0px;
+            &:hover {
+                cursor: pointer;
+                color: $fourth-color;
+            }
+        }
+    }
+}
